@@ -1,0 +1,8 @@
+# 8. Write a python script to print squares of first N natural numbers
+
+N=int(input("Enter a number: "))
+
+
+for i in range(1,N+1,1):
+    print(i*i,end=' ')
+    
